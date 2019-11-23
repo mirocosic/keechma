@@ -35,7 +35,7 @@
   the received version)
   2. Controller's `handler` function will be called - this function will receive
   application state atom, channel through which the controller receives the commands
-  (`in-chan`) and the channel through which the controller can send commends to
+  (`in-chan`) and the channel through which the controller can send commands to
   other controllers (`out-chan`).
 
   When `params` function returns a `nil` value that instance of the controller will
